@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-// This class represents a directed graph using adjacency list
+// This class represents an undirected graph using adjacency list
 // representation
 class Graph
 {
@@ -95,6 +95,6 @@ class Graph
 		if (g2.isCyclic())
 			System.out.println("Graph contains cycle");
 		else
-			System.out.println("Graph doesn't contains cycle");
+			System.out.println("Graph doesn't contain cycle");
 	}
 }
