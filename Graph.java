@@ -3,8 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-// This class represents an undirected graph using adjacency list
-// representation
+// This class represents an undirected graph using adjacency list representation
 class Graph
 {
 	private int V; // No. of vertices
@@ -38,8 +37,7 @@ class Graph
 		{
 			i = it.next();
 
-			// If an adjacent is not visited, then recur for that
-			// adjacent
+			// If an adjacent is not visited, then recur for that adjacent
 			if (!visited[i])
 			{
 				if (isCyclicUtil(i, visited, v))
